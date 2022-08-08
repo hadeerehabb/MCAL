@@ -1,0 +1,20 @@
+void MTIMER0_VInit(void);
+u8 MTimerVoidPreload(u8 A_u8Preload);
+u8 MTimerVoidSetOCR0(u8 A_u8OCR);
+void GetApp_Timer0_CTC(void (*ARG)(void));
+void GetApp_Timer0_NORMAL(void (*ARG)(void));
+void MTimer1voidFPWInit(void);
+void MTimer1voidNORMALInit(void);
+U16 MTimer1ReadICR(void);
+void MTimer1voidSetEdgeTrigger(u8 A_u8Trigger);
+void MTimer1voidENABLEICU();
+void MTimer1voidDisableICU();
+void Timer1_voidsetOCR1A(U16 A_U16OCR1A);
+void Timer1_voidsetICR1A(U16 A_U16ICR1A);
+void GetApp_Timer1(void (*ARG)(void));
+void GetApp_ICU(void (*ARG)(void));
+U16 MTimer1ReadTCNT1(void);
+void MTimer1PreloadTCNT1(U16 A_U16Preload);
+void MTimer1ICUInit(void);
+void timer0_FPWMInit();
+
